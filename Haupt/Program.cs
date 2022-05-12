@@ -16,7 +16,7 @@ class Program
             Console.WriteLine("Bitte geben Sie Nachnamen oder Zimmernummer ein");
             string eingabe_str = Console.ReadLine();
             short eingabe_short;
-
+            
             bool flag = short.TryParse(eingabe_str, out eingabe_short);
             if (flag == true)
             {
